@@ -14,6 +14,9 @@ export class CharactersApiService {
 
   constructor(private http: HttpClient) { }
 
+  /* 
+  Método que permite listar todos os personagens 
+   */
   getAllCharacters(): Observable<any> {
     return this.http.get<any>(this.URL_API)
       .pipe(map((data: any) => data))
