@@ -1,5 +1,8 @@
 # FaMarvel
 
+![image](https://user-images.githubusercontent.com/54048170/121112090-522cb800-c7e6-11eb-9b16-869655196cd3.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Development server
