@@ -3,7 +3,7 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <mat-toolbar></mat-toolbar>
     <mat-nav-list>
-      <a class="links" mat-list-item href="#">Characters</a>
+      <a class="links" mat-list-item routerLink="characters">Characters</a>
       <a class="links" mat-list-item href="#">Comics</a>
       <a class="links" mat-list-item href="#">Events</a>
       <a class="links" mat-list-item href="#">Series</a>

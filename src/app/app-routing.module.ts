@@ -3,15 +3,32 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: '/characters',
-    pathMatch: 'full'
-  },
+  /*  {
+     path: '',
+     redirectTo: '/characters',
+     pathMatch: 'full'
+   }, */
   {
     path: 'characters',
     component: CharactersComponent
+  },
+  {
+    path: 'comics',
+    component: CharactersComponent
+  },
+  {
+    path: 'events',
+    component: CharactersComponent
+  },
+  {
+    path: 'series',
+    component: CharactersComponent
+  },
+  {
+    path: 'stories',
+    component: CharactersComponent
   }
+
 ];
 
 @NgModule({
