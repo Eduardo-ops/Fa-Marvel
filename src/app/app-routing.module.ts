@@ -1,3 +1,4 @@
+import { EventsComponent } from './events/events.component';
 import { ComicsComponent } from './comics/comics.component';
 import { CharactersComponent } from './characters/characters.component';
 import { NgModule } from '@angular/core';
@@ -19,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'events',
-    component: CharactersComponent
+    component: EventsComponent
   },
   {
     path: 'series',
