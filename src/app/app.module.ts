@@ -18,7 +18,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule} from '@angular/material/card' ;
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { ComicComponent } from './comics/comic/comic.component';
-import { ComicsComponent } from './comics/comics.component' ;
+import { ComicsComponent } from './comics/comics.component';
+import { EventComponent } from './events/event/event.component';
+import { EventsComponent } from './events/events.component' ;
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ComicsComponent } from './comics/comics.component' ;
     CharacterComponent,
     CharactersComponent,
     ComicComponent,
-    ComicsComponent
+    ComicsComponent,
+    EventComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
