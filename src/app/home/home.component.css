@@ -4,11 +4,12 @@
 
 .sidenav {
   width: 200px;
-  background-color: #202020;
+  background-color: darkred;
 }
 
 .sidenav .mat-toolbar {
-  background: #8B0000;
+  /* background-image: url('src/assets/imagens/imagem7.jpg'); */
+  background: #202020;
 }
 
 .mat-toolbar.mat-primary {
@@ -18,7 +19,7 @@
 }
 
 .header{
-  background-color: #8B0000;
+  background-color: #202020;
 }
 
 
