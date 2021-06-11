@@ -22,7 +22,9 @@ import { ComicsComponent } from './comics/comics.component';
 import { EventComponent } from './events/event/event.component';
 import { EventsComponent } from './events/events.component';
 import { SerieComponent } from './series/serie/serie.component';
-import { SeriesComponent } from './series/series.component' ;
+import { SeriesComponent } from './series/series.component';
+import { StorieComponent } from './stories/storie/storie.component';
+import { StoriesComponent } from './stories/stories.component' ;
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { SeriesComponent } from './series/series.component' ;
     EventComponent,
     EventsComponent,
     SerieComponent,
-    SeriesComponent
+    SeriesComponent,
+    StorieComponent,
+    StoriesComponent
   ],
   imports: [
     BrowserModule,
