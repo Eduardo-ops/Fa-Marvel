@@ -1,6 +1,15 @@
 # FaMarvel
 
 ![image](https://user-images.githubusercontent.com/54048170/121112156-683a7880-c7e6-11eb-8c98-d413338182a3.png)
+![image](https://user-images.githubusercontent.com/54048170/121756416-5f042100-caf0-11eb-993c-86aab5d0164c.png)
+![image](https://user-images.githubusercontent.com/54048170/121756429-688d8900-caf0-11eb-9ace-8ca83f985039.png)
+![image](https://user-images.githubusercontent.com/54048170/121756440-704d2d80-caf0-11eb-964b-590ab7eaf991.png)
+![image](https://user-images.githubusercontent.com/54048170/121756445-74794b00-caf0-11eb-96ef-e5cd542360d8.png)
+![image](https://user-images.githubusercontent.com/54048170/121756520-c621d580-caf0-11eb-9fbf-393086b079b4.png)
+![image](https://user-images.githubusercontent.com/54048170/121756528-d043d400-caf0-11eb-9c2c-5d443d055f3b.png)
+![image](https://user-images.githubusercontent.com/54048170/121756539-d6d24b80-caf0-11eb-8689-93190c832893.png)
+
+
 
 
 
