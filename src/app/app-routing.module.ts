@@ -1,3 +1,4 @@
+import { SeriesComponent } from './series/series.component';
 import { EventsComponent } from './events/events.component';
 import { ComicsComponent } from './comics/comics.component';
 import { CharactersComponent } from './characters/characters.component';
@@ -24,7 +25,7 @@ const routes: Routes = [
   },
   {
     path: 'series',
-    component: CharactersComponent
+    component: SeriesComponent
   },
   {
     path: 'stories',

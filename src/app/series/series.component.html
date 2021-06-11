@@ -1,1 +1,22 @@
-<p>series works!</p>
+<div fxFlex fxLayout="column">
+    <div fxLayout="row wrap">
+        <div fxFlex="25" fxFlex.md="33" fxFle.sm="50" fxFlex.xs="100" fxLayout="column"
+            *ngFor="let i of ListSeries | async" style="padding: 5px">
+
+            <mat-card>
+                <!-- Imagem de cada serie -->
+                <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}">
+                <!-- Nome de todos os serie -->
+                <mat-card-title>
+                    {{i.name}}
+                </mat-card-title>
+                <!-- Exibindo os detalhes dos series -->
+                <mat-car-footer>
+                    <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
+                </mat-car-footer>
+            </mat-card>
+
+        </div>
+
+    </div>
+</div>
