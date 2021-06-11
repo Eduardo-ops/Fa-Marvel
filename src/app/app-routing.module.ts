@@ -1,3 +1,4 @@
+import { ComicsComponent } from './comics/comics.component';
 import { CharactersComponent } from './characters/characters.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -14,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'comics',
-    component: CharactersComponent
+    component: ComicsComponent
   },
   {
     path: 'events',
