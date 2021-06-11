@@ -16,14 +16,18 @@ import { CharactersComponent } from './characters/characters.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule} from '@angular/material/card' ;
-import { MatFormFieldModule} from '@angular/material/form-field' ;
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { ComicComponent } from './comics/comic/comic.component';
+import { ComicsComponent } from './comics/comics.component' ;
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CharacterComponent,
-    CharactersComponent
+    CharactersComponent,
+    ComicComponent,
+    ComicsComponent
   ],
   imports: [
     BrowserModule,
