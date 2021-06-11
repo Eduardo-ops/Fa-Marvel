@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class EventsComponent implements OnInit {
 
-  ListaEvetns: Observable<any>
+  ListaEvents: Observable<any>
 
   constructor(private eventsService: EventsApiService) { }
 
@@ -18,7 +18,7 @@ export class EventsComponent implements OnInit {
   }
 
   getEvents() {
-    this.ListaEvetns = this.eventsService.getAllEvents()
+    this.ListaEvents = this.eventsService.getAllEvents()
   }
 
 }
