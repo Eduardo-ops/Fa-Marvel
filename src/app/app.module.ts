@@ -20,7 +20,9 @@ import { MatFormFieldModule} from '@angular/material/form-field';
 import { ComicComponent } from './comics/comic/comic.component';
 import { ComicsComponent } from './comics/comics.component';
 import { EventComponent } from './events/event/event.component';
-import { EventsComponent } from './events/events.component' ;
+import { EventsComponent } from './events/events.component';
+import { SerieComponent } from './series/serie/serie.component';
+import { SeriesComponent } from './series/series.component' ;
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { EventsComponent } from './events/events.component' ;
     ComicComponent,
     ComicsComponent,
     EventComponent,
-    EventsComponent
+    EventsComponent,
+    SerieComponent,
+    SeriesComponent
   ],
   imports: [
     BrowserModule,
