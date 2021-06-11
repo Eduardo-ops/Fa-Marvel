@@ -1,4 +1,6 @@
+import { EventsApiService } from './event/shared/events-api.service';
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-events',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
-  constructor() { }
+  ListaEvetns: Observable<any>
+
+  constructor(private eventsService: EventsApiService) { }
 
   ngOnInit(): void {
+    this.getEvents()
+  }
+
+  getEvents() {
+    this.ListaEvetns = this.eventsService.getAllEvents()
   }
 
 }
