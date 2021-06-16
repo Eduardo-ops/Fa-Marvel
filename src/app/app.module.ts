@@ -25,7 +25,6 @@ import { SerieComponent } from './series/serie/serie.component';
 import { SeriesComponent } from './series/series.component';
 import { StorieComponent } from './stories/storie/storie.component';
 import { StoriesComponent } from './stories/stories.component';
-import { PrincipalComponent } from './principal/principal.component' ;
 
 @NgModule({
   declarations: [
@@ -40,8 +39,7 @@ import { PrincipalComponent } from './principal/principal.component' ;
     SerieComponent,
     SeriesComponent,
     StorieComponent,
-    StoriesComponent,
-    PrincipalComponent
+    StoriesComponent
   ],
   imports: [
     BrowserModule,
