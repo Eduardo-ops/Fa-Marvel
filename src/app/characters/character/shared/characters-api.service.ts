@@ -21,7 +21,7 @@ export class CharactersApiService {
   /* 
   Endereço dos dados que escolhemos obter da marvel 
   */
-  URL_API = `http://gateway.marvel.com/v1/public/characters?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`
+  URL_API = `https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`
 
   constructor(private http: HttpClient) { }
 
