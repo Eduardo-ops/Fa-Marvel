@@ -1,3 +1,4 @@
+import { PrincipalComponent } from './principal/principal.component';
 import { StoriesComponent } from './stories/stories.component';
 import { SeriesComponent } from './series/series.component';
 import { EventsComponent } from './events/events.component';
@@ -7,11 +8,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  /*  {
-     path: '',
-     redirectTo: '/characters',
-     pathMatch: 'full'
-   }, */
+   {
+     path: 'principal',
+     component: PrincipalComponent
+   },
   {
     path: 'characters',
     component: CharactersComponent
