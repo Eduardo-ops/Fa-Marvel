@@ -31,10 +31,16 @@
   margin-top: 16px;
 }
 
- .titulo{
+ a{
+   text-decoration: none;
+   color: #fff;
    font-size: 50px;
    font-family: Impact, fantasy;
    font-weight: 700;
+ }
+
+ #cor-background{
+  background: red;
  }
 
 .links{
@@ -53,4 +59,19 @@
   padding: 15px 0;
   color: #fff;
   cursor: default;
+}
+
+#imagem-background{ 
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
 }
