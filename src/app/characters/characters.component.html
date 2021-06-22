@@ -6,11 +6,11 @@
             <mat-card>
                 <!-- Imagem de cada personagem -->
                 <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}">
-                <!-- Nome de todos os personagens -->
+                <!-- Nome dos os personagens -->
                 <mat-card-title>
                     {{i.name}}
                 </mat-card-title>
-                <!-- Exibindo os detalhes dos personagens -->
+                <!-- Exibindo os detalhes dos personagens, direcionado pelo botão que leva a página. -->
                 <mat-car-footer>
                     <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
                 </mat-car-footer>
