@@ -4,13 +4,13 @@
             *ngFor="let i of ListComics | async" style="padding: 20px">
 
             <mat-card>
-                <!-- Imagem de cada personagem -->
+                <!-- Imagem de cada comic -->
                 <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}">
-                <!-- Nome de todos os personagens -->
+                <!-- Título dos comics -->
                 <mat-card-title>
                     {{i.title}}
                 </mat-card-title>
-                <!-- Exibindo os detalhes dos personagens -->
+                <!-- Exibindo os detalhes dos comics, direcionado pelo botão que leva a página. -->
                 <mat-car-footer>
                     <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
                 </mat-car-footer>
