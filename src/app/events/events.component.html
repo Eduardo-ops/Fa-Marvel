@@ -6,11 +6,11 @@
             <mat-card>
                 <!-- Imagem de cada evento -->
                 <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}">
-                <!-- Nome de todos os eventos -->
+                <!-- Título de cada evento -->
                 <mat-card-title>
                     {{i.title}}
                 </mat-card-title>
-                <!-- Exibindo os detalhes dos eventos -->
+                <!-- Exibindo os detalhes dos eventos, direcionado pelo botão que leva a página. -->
                 <mat-car-footer>
                     <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
                 </mat-car-footer>
