@@ -1,8 +1,7 @@
 <div class="background" fxFlex fxLayout="column">
     <div fxLayout="row wrap">
-        <div fxFlex="20" fxFlex.md="33" fxFle.sm="50" fxFlex.xs="100" fxLayout="column"
-            *ngFor="let i of ListCharacters | async" style="padding: 20px">
-
+        <div fxFlex="25" fxFlex.md="33" fxFle.sm="50" fxFlex.xs="100" fxLayout="column"
+            *ngFor="let i of ListCharacters | async" style="padding: 15px">
             <mat-card>
                 <!-- Imagem de cada personagem -->
                 <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}">
@@ -15,8 +14,6 @@
                     <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
                 </mat-car-footer>
             </mat-card>
-
         </div>
-
     </div>
 </div>
