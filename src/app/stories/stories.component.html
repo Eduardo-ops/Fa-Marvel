@@ -2,21 +2,12 @@
     <div fxLayout="row wrap">
         <div fxFlex="25" fxFlex.md="33" fxFle.sm="50" fxFlex.xs="100" fxLayout="column"
             *ngFor="let i of ListStories | async" style="padding: 20px">
-
             <mat-card>
-                <!-- Imagem de cada stories -->
-                <!-- <img mat-card-image src={{i.thumbnail.path}}.{{i.thumbnail.extension}} alt="{{i.name}}"> -->
-                <!-- Nome de todos os stories -->
+                <!-- Título de cada stories -->
                 <mat-card-title>
                     {{i.title}}
                 </mat-card-title>
-                <!-- Exibindo os detalhes dos stories -->
-                <!-- <mat-car-footer>
-                    <a href="{{i.urls[0].url}}" target="_blank" fxFlex mat-flat-button color="primary">Detalhes</a>
-                </mat-car-footer> -->
             </mat-card>
-
         </div>
-
     </div>
 </div>
